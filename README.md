@@ -12,4 +12,5 @@ enable MKL: [whl link](https://github.com/GTGraphics3/tensorflow-1.4.2-AVX-MKL/r
 ## How to use?
 
 `wget https://github.com/GTGraphics3/tensorflow-1.4.2-AVX-MKL/releases/download/v1.0/tensorflow-1.4.2-cp27-cp27mu-linux_x86_64.whl`
+
 `pip install tensorflow-1.4.2-cp27-cp27mu-linux_x86_64.whl`

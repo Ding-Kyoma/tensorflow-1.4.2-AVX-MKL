@@ -1,5 +1,7 @@
 # tensorflow-1.4.2 enable AVX MKL
-ubuntu 18.04,x86-64, python 2.7
+Environment: 
+
+ubuntu 18.04, x86-64, python 2.7
 
 
 

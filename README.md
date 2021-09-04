@@ -31,15 +31,15 @@ pip install tensorflow-1.4.2-cp27-cp27mu-linux_x86_64.whl
 
 ## How to build?
 
-### 1. install python 
+### 1. Check which tensorflow & python & Bazel & gcc version you need install
+
+https://www.tensorflow.org/install/source#linux
+
+
+### 2. install python 
 
 `sudo apt install python-dev python-pip`     for python 2.7
 or `sudo apt install python3-dev python3-pip`   for python 3.6
-
-
-### 2. Check which Bazel & gcc version you need install
-
-https://www.tensorflow.org/install/source#linux
 
 
 ### 3. Install Bazel

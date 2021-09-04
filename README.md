@@ -90,7 +90,7 @@ git checkout r1.4     # r1.4 is tensorflow 1.4.2
 
 ### 6. Build 
 
-#### build With AVX2/FMA
+#### build With AVX2/FMA/etc.
 
 ```
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package     # take time
@@ -99,7 +99,7 @@ bazel-bin/tensorflow/tools/pip_package/build_pip_package ~/tensorflow_pkg
 pip install ~/tensorflow_pkg/tensorflow-1.8.0-cp27-cp27mu-linux_x86_64.whl    # install tensorflow with AVX2/FMA
 ```
 
-##### build With AVX2/FMA
+##### build With MKL
 
 ```
 bazel build --config=opt --config=mkl //tensorflow/tools/pip_package:build_pip_package      # take time

@@ -11,6 +11,8 @@ enable MKL: [whl link](https://github.com/GTGraphics3/tensorflow-1.4.2-AVX-MKL/r
 
 
 
+
+
 ## How to use?
 
 install tensorflow that enable AVX SSE FMA: 
@@ -22,6 +24,11 @@ pip install tensorflow-1.4.2-cp27-cp27mu-linux_x86_64.whl
 
 ```
 
+
+
+
+
+
 ## How to build?
 
 #### install python 
@@ -30,12 +37,12 @@ pip install tensorflow-1.4.2-cp27-cp27mu-linux_x86_64.whl
 or `sudo apt install python3-dev python3-pip`   for python 3.6
 
 
-#### check which Bazel & gcc version you need install
+#### Check which Bazel & gcc version you need install
 
 https://www.tensorflow.org/install/source#linux
 
 
-#### install Bazel
+#### Install Bazel
 
 ```
 sudo apt install g++ unzip zip
@@ -49,7 +56,7 @@ chmod +x bazel-0.5.4-installer-linux-x86_64.sh
  
  `source ~/.bashrc`
 
-#### insatll gcc
+#### Install gcc
 
 `sudo vim /etc/apt/sources.list`
 

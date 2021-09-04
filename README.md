@@ -44,6 +44,8 @@ https://www.tensorflow.org/install/source#linux
 
 ### 3. Install Bazel
 
+[other Bazel version](https://github.com/bazelbuild/bazel/releases) 
+
 ```
 sudo apt install g++ unzip zip
 wget https://github.com/bazelbuild/bazel/releases/download/0.5.4/bazel-0.5.4-installer-linux-x86_64.sh

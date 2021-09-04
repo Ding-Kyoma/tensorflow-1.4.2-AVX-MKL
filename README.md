@@ -31,18 +31,18 @@ pip install tensorflow-1.4.2-cp27-cp27mu-linux_x86_64.whl
 
 ## How to build?
 
-#### install python 
+### 1. install python 
 
 `sudo apt install python-dev python-pip`     for python 2.7
 or `sudo apt install python3-dev python3-pip`   for python 3.6
 
 
-#### Check which Bazel & gcc version you need install
+### 2. Check which Bazel & gcc version you need install
 
 https://www.tensorflow.org/install/source#linux
 
 
-#### Install Bazel
+### 3. Install Bazel
 
 ```
 sudo apt install g++ unzip zip
@@ -56,7 +56,7 @@ chmod +x bazel-0.5.4-installer-linux-x86_64.sh
  
  `source ~/.bashrc`
 
-#### Install gcc
+### 4. Install gcc
 
 `sudo vim /etc/apt/sources.list`
 
@@ -77,7 +77,7 @@ gcc --version
 ```
 
 
-#### download TensorFlow
+### 5. Download TensorFlow
 
 ```
 pip install -U --user pip numpy wheel
@@ -88,9 +88,9 @@ git checkout r1.4     # r1.4 is tensorflow 1.4.2
 ./configure           # all No
 ```
 
-#### build 
+### 6. Build 
 
-##### build With AVX2/FMA
+#### build With AVX2/FMA
 
 ```
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package     # take time
